@@ -1,0 +1,49 @@
+.container-sm {
+  border: 1px solid red;
+}
+
+.container-md {
+  border: 1px solid red;
+}
+
+.container-fluid {
+  border: 1px solid red;
+}
+
+.container {
+  border: 1px solid red;
+}
+
+.color {
+  border: 1px solid blue;
+}
+
+.btn-primary {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:focus,
+.btn-primary:focus-within {
+  background-color: salmon;
+  border-color: salmon;
+}
+
+.alert-primary {
+  background-color: slateblue;
+  color: white;
+}
+
+/* .row {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.col-sm {
+
+} */
