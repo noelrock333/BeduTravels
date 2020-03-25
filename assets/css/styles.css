@@ -42,7 +42,7 @@ nav>div>a:hover {
   fill: white;
 }
 
-section {
+.main-section {
   background-image: url(../images/playa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,7 +53,7 @@ section {
   justify-content: center;
 }
 
-section>div {
+.main-section>div {
   text-align: center;
   width: 100%;
 }
@@ -85,10 +85,34 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-  section {
+  .main-section {
     background-image: url('https://www.xtrafondos.com/wallpapers/resized/atardecer-rosa-en-la-playa-3341.jpg?s=large');
   }
   input {
     display: none;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.iconos {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.iconos img {
+  width: 10%;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
   }
 }
